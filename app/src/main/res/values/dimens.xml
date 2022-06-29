@@ -1,0 +1,5 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="news_image_height">164dp</dimen>
+    <dimen name="default_half_margin">8dp</dimen>
+</resources>
