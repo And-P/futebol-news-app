@@ -19,14 +19,15 @@ public class NewsViewModel extends ViewModel {
     private final MutableLiveData<List<News>> news = new MutableLiveData<>();
     private final FutebolNewsApi api;
 
+
     public NewsViewModel() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://and-p.github.io/futebol-news-api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-
         api = retrofit.create(FutebolNewsApi.class);
-        findNews();
+
+        this.findNews();
     }
 
     private void findNews() {
