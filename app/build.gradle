@@ -39,6 +39,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
     implementation 'androidx.navigation:navigation-fragment:2.3.5'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     //Retrofit e Gson
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
@@ -46,6 +47,7 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.8'
     // Reference: https://developer.android.com/training/data-storage/room
     implementation "androidx.room:room-runtime:2.4.2"
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     annotationProcessor "androidx.room:room-compiler:2.4.2"
     //Room
     implementation 'androidx.room:room-runtime:2.4.2'
